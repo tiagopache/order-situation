@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es2018"
+    },
+    "include": [
+        "src/**/*",
+        "config/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

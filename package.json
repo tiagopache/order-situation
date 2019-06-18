@@ -1,0 +1,32 @@
+{
+  "name": "order-situation",
+  "version": "1.0.0",
+  "description": "Order situation sample",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.13.x < 11.0.0"
+  },
+  "scripts": {
+    "start": "cross-env NODE_PATH=. NODE_ENV=development node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tiago Pache <tiagopache@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "morgan": "^1.9.1",
+    "sequelize": "^5.8.9",
+    "sqlite3": "^4.0.9",
+    "uuid": "^3.3.2"
+  }
+}

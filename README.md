@@ -25,7 +25,7 @@ npm run start
 
 #### 4.1. Enable SQL Logging
 
-If you want to know what is happening under the Sequelize hoods, just update the ./config/database.js as following:
+If you want to know what is happening under the Sequelize hoods, just update the `./config/database.js` as following:
 
 ``` js
     ...
